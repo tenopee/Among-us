@@ -11,12 +11,12 @@ export default new Router({
     {
       path: '/',
       component: Settings,
-      name: 'settings',
+      name: 'settings'
     },
     {
-      path: '/gameMemo',            
+      path: '/gameMemo',
       component: GameMemo,
-      name: 'gameMemo',
-    },
+      name: 'gameMemo'
+    }
   ]
 })
