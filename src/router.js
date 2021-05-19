@@ -1,14 +1,17 @@
-import Vue from "vue";
-import Router from "vue-router";
+import Vue from 'vue'
+import Router from 'vue-router'
+import Settings from './templates/settings'
+import GameMemo from './templates/gameMemo'
 
-Vue.use(Router);
+Vue.use(Router)
+
 export default new Router({
-  mode: "history",
+  mode: 'history',
   routes: [
     {
       path: '/',
-      component: Index,
-      name: 'setting',
+      component: Settings,
+      name: 'settings',
     },
     {
       path: '/gameMemo',            
@@ -16,4 +19,4 @@ export default new Router({
       name: 'gameMemo',
     },
   ]
-});
+})
